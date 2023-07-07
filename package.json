@@ -10,6 +10,9 @@
   "keywords": [
     "flipper-plugin"
   ],
+  "bugs": {
+    "url": "https://github.com/bytehala/flipper-plugin-better-network/issues"
+  },
   "icon": "apps",
   "title": "Betwork",
   "description": "Betwork - NOT the original Network plugin",
