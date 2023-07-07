@@ -616,18 +616,8 @@ export function Component() {
             </Layout.Horizontal>
           }
         />
-        <Layout.Bottom gap>
-          <Panel key="hello" title={'Request Headers'} pad>
-            {'test'}
-            {'test'}
-          </Panel>
-          <Panel title="bla">
-            {'test'}
-            {'test'}
-          </Panel>
-        </Layout.Bottom>
         <Modal
-          visible={showMockResponseDialog}
+          open={showMockResponseDialog}
           onCancel={instance.onCloseButtonPressed}
           footer={null}
           title="Mock Network Responses"
